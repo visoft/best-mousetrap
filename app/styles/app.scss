@@ -1,1 +1,8 @@
 @import "ember-bootstrap/bootstrap";
+
+.card {
+  .card-img-top {
+    height: 200px;
+    object-fit: contain;
+  }
+}

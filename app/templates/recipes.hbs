@@ -1,7 +1,7 @@
 <h1>Recipes</h1>
 
-<ul>
-  {{#each @model as |recipe| }}
-    <li>{{recipe.name}}</li>
+<div class="card-columns">
+  {{#each @model as |beer| }}
+    <BeerView @beer={{beer}} />
   {{/each}}
-</ul>
+</div>
